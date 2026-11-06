@@ -1,0 +1,10 @@
+Services:
+  falsk_app:
+    container_name: ContenedorParcial
+    build: .
+    volumes:
+      - app_volume:/us/local/bin/
+    ports:
+      - "5005:5009"
+  volumes:
+    app_volume:
