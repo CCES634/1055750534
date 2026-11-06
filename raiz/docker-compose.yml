@@ -1,0 +1,6 @@
+Services:
+  python_raiz2:
+    
+    container_name: python_raiz
+    build: .
+    volumes: .:/Documents/parcial/raiz
